@@ -1,0 +1,3 @@
+Sources:
+
+1. Forked udacity/frontend-nanodegree-resume
