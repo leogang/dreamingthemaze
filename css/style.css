@@ -32,6 +32,7 @@ body:before {
 body nav {
   padding-top: 50px;
   padding-bottom: 45px;
+  padding-left: 50px;
   position: fixed;
   width: 100%;
   background-size: 100%;
@@ -60,7 +61,9 @@ body nav ul li a .home-button {
   padding-top: 10px;
 }
 body nav ul li a:hover {
-  /* js */
+  color: inherit;
+  background-color: #ffb7b7;
+  text-decoration: none;
 }
 body p {
   padding-top: 45px;
@@ -72,9 +75,18 @@ ul {
   list-style-type: none; 
   line-height: 25px; 
 }
+li {
+  border-width: 5px;
+}
 a {
   color: #636363;
   text-decoration: none;
+}
+a:hover {
+  color: inherit;
+  background-color: #ffb7b7;
+  text-decoration: none;
+  margin: 2px 5px 2px 5px;
 }
 h1 {
   font-size: 21px;
