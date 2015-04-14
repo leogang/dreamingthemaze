@@ -28,43 +28,41 @@ body:before {
 }
 body nav {
   padding-top: 50px;
-  padding-bottom: 4px;
-  position: fixed;
+  padding-bottom: 18px;
   width: 100%;
   background-size: 100%;
   background: rgba(246, 246, 246, 0.4);
-  font: 16px Roboto;
-  letter-spacing: 3px;
+  font: 17px Roboto;
+  letter-spacing: 4px;
   text-transform: lowercase;
   text-align: center;
   list-style-type: none; 
 }
 body nav ul {
   list-style-type: none;
-  margin: 0;
-  padding: 0;
 }
 body nav ul li {
   display: inline-block;
-  padding-right: 14px;
+  padding-right: 12px;
 }
 body nav ul li a {
   color: #636363;
-  font-weight: 500;
   text-decoration: none;
 }
 body nav ul li a .home-button {
   font-size: 21px;
   padding-top: 1px;
+  text-decoration: none;
 }
 body nav ul li a:hover {
-  text-decoration: none;
   color: #686868;
+  text-decoration: none;
   border-bottom: none;
 }
 body p {
   padding-top: 45px;
-  color: #636363;
+  font: 14px 'Roboto Condensed', sans-serif;
+  color: #444;
   line-height: 18px;
 }
 ul {
@@ -72,29 +70,32 @@ ul {
   line-height: 25px; 
 }
 li {
-  border-width: 5px;
+  border-width: 2px;
 }
 a {
   color: #636363;
   text-decoration: none;
 }
+a:hover {
+  color: #f0f8ff;
+}
 .underl a:hover {
   text-decoration: none;
-  border-bottom: 4.9px solid #686868;
+  border-bottom: 4.9px solid #363636;
+  border-length: 50%;
 }
 h1 {
   font-size: 21px;
 }
-h2 {
-  font-size: inherit;
-  padding-bottom: -20px;
-}
 h3 {
   font-size: 24px;
 }
-h4:hover {
-  text-decoration: none;
-  border-bottom: 2px solid #686868;
+h4 {
+
+}
+.home-button img.resize{
+    width: 50%; 
+    height: 50%;
 }
 .container {
   width: 100%;
