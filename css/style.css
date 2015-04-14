@@ -3,7 +3,7 @@
   margin: 0;
 }
 body {
-  background: url(../images/background.jpg) no-repeat center center fixed; 
+  background: url(../images/background.jpg) no-repeat center fixed; 
   background-color: rgba(200, 201, 201, 0.25);
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -27,77 +27,91 @@ body:before {
   background-color: rgba(200, 201, 201, 0.6);
 }
 body nav {
+  margin: 0 auto;
   padding-top: 50px;
-  padding-bottom: 4px;
-  position: fixed;
+  padding-bottom: 18px;
   width: 100%;
   background-size: 100%;
   background: rgba(246, 246, 246, 0.4);
-  font: 16px Roboto;
-  letter-spacing: 3px;
+  font: 17px Roboto;
+  letter-spacing: 4px;
   text-transform: lowercase;
   text-align: center;
   list-style-type: none; 
 }
 body nav ul {
   list-style-type: none;
-  margin: 0;
-  padding: 0;
 }
 body nav ul li {
   display: inline-block;
-  padding-right: 14px;
+  padding-right: 13px;
 }
 body nav ul li a {
   color: #636363;
-  font-weight: 500;
   text-decoration: none;
 }
 body nav ul li a .home-button {
-  font-size: 21px;
-  padding-top: 1px;
+  text-decoration: none;
 }
 body nav ul li a:hover {
-  text-decoration: none;
   color: #686868;
+  text-decoration: none;
   border-bottom: none;
 }
 body p {
-  padding-top: 45px;
-  color: #636363;
-  line-height: 18px;
+  margin: 0 auto;
+  padding-top: 80px;
+  padding-left: 10px;
+  font: 12px 'Roboto Condensed', sans-serif;
+  color: #444;
+  line-height: 22px;
 }
 ul {
   list-style-type: none; 
-  line-height: 25px; 
+  padding-top: 77px;
 }
 li {
-  border-width: 5px;
+  border-width: 2px;
+  line-height: 35px;
+  font-size: 15px; 
 }
 a {
   color: #636363;
   text-decoration: none;
 }
+a:hover {
+  color: #f0f8ff;
+  border-bottom: none;
+}
 .underl a:hover {
   text-decoration: none;
-  border-bottom: 4.9px solid #686868;
+  border-bottom: 5px solid #363636;
 }
 h1 {
   font-size: 21px;
 }
-h2 {
-  font-size: inherit;
-  padding-bottom: -20px;
-}
 h3 {
-  font-size: 24px;
+  font-size: 16px;
+  font-weight: 400;
+  color: #f0f8ff;
 }
-h4:hover {
-  text-decoration: none;
-  border-bottom: 2px solid #686868;
+h4 {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 25px;
+}
+img {
+    width: 50%; 
+    height: 70%;
+    margin: 0;
+    padding: 0;
 }
 .container {
   width: 100%;
+}
+.center {
+   margin: 0 auto !important;
+   float: none !important;
 }
 ::selection {
   background: #ffb7b7; /* WebKit/Blink Browsers */
