@@ -68,6 +68,9 @@ body p {
 body p .about {
   padding-left: 10px;
 }
+body p .projects {
+  text-align: center;
+}
 ul {
   list-style-type: none; 
   padding-top: 65px;
