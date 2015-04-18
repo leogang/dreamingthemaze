@@ -90,7 +90,8 @@ a:hover {
 }
 .underl a:hover {
   text-decoration: none;
-  border-bottom: 5px solid #363636;
+  border-bottom: 6px solid #363636;
+  border-top: 6px solid #363636;
 }
 h1 {
   font-size: 21px;
