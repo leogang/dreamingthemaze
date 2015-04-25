@@ -3,6 +3,7 @@
   margin: 0;
 }
 body {
+  overflow: hidden;
   background: url(../images/background.jpg) no-repeat center fixed; 
   background-color: rgba(200, 201, 201, 0.25);
   -webkit-background-size: cover;
@@ -89,6 +90,7 @@ a {
 }
 a:hover {
   color: #f0f8ff;
+  text-decoration: none;
   border-bottom: none;
 }
 .underl a:hover {
@@ -109,6 +111,7 @@ h3 {
   color: #f0f8ff;
 }
 h4 {
+  text-decoration: none;
   font-size: 12px;
   font-weight: 400;
   line-height: 25px;
