@@ -24,7 +24,7 @@ body:before {
   left: 0;
   top: 0;
   z-index: -1;
-  background-color: rgba(200, 201, 201, 0.6);
+  background-color: rgba(219, 219, 219, 0.4);
 }
 body nav {
   margin: 0 auto;
@@ -50,8 +50,10 @@ body nav ul li a {
   color: #636363;
   text-decoration: none;
 }
-body nav ul li a .home-button {
+body nav ul li h1 {
   text-decoration: none;
+  width: 170px;
+  height: auto;
 }
 body nav ul li a:hover {
   color: #686868;
