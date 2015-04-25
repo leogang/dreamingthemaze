@@ -11,7 +11,7 @@ body {
   -o-background-size: cover;
   background-size: cover;
   width: 100%;
-  min-width: 940px;
+  
   font: 13px "Helvetica-Neue", Helvetica, sans-serif;
   line-height: 20px;
   letter-spacing: 1px;
@@ -63,6 +63,7 @@ body nav ul li a:hover {
   border-bottom: none;
 }
 body p {
+  width: 100%;
   margin: 0 auto;
   padding-top: 70px;
   font: 12px 'Roboto Condensed', sans-serif;
