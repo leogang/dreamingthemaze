@@ -63,7 +63,7 @@ body nav ul li a:hover {
   border-bottom: none;
 }
 body p {
-  width: 100%;
+  max-width: 100%;
   margin: 0 auto;
   padding-top: 70px;
   font: 12px 'Roboto Condensed', sans-serif;
@@ -72,9 +72,6 @@ body p {
 }
 body p .about {
   padding-left: 10px;
-}
-body p .projects {
-  text-align: center;
 }
 ul {
   list-style-type: none; 
@@ -107,6 +104,7 @@ h1 {
   margin-left: -48px;
 }
 h3 {
+  max-width: 100%;
   font-size: 16px;
   font-weight: 400;
   color: #f0f8ff;
