@@ -96,7 +96,12 @@ a:hover {
   border-bottom: 6px solid #363636;
   padding-bottom: 21px;
   padding-right: -13px;
- 
+}
+.currPage a {
+  text-decoration: none;
+  border-bottom: 6px solid #363636;
+  padding-bottom: 21px;
+  padding-right: -13px;
 }
 h1 {
   font-size: 21px;
